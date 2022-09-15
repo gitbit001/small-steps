@@ -1,34 +1,9 @@
 {
   "name": "small-steps",
   "version": "1.0.0",
-  "private": true,
-  "engines": {
-    "node": ">=10.0.0",
-    "npm": ">=6.0.0"
+  "private": true
   },
   "scripts": {
     "start": "lscpu"
-  },
-  "dependencies": {
-    "@react-native-community/async-storage": "^1.7.1",
-    "prop-types": "^15.7.2",
-    "react": "16.8.6",
-    "react-native": "0.60.5",
-    "react-native-config": "^0.11.7",
-    "react-native-device-info": "^2.3.2",
-    "react-native-splash-screen": "^3.2.0",
-    "react-redux": "^7.1.1",
-    "redux": "^4.0.4",
-    "uuidv4": "^6.0.0"
-  },
-  "jest": {
-    "preset": "react-native",
-    "setupFilesAfterEnv": [
-      "jest-enzyme"
-    ],
-    "testEnvironment": "enzyme",
-    "testEnvironmentOptions": {
-      "enzymeAdapter": "react16"
-    }
   }
 }
